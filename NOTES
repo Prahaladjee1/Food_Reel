@@ -30,3 +30,5 @@ AND for saving the password and user details for user we use cookie becz if they
 for this we use the library that is (npm i cookie-parser) means we create token for user and save it in cookie 
 
 --->>>>>Frontend pe hm password kbhi nhi bhejte due to security reasons
+
+So finally for register user we create an API is successfully
