@@ -1,0 +1,32 @@
+THERE IS MAINLY TWO THING IN THIS BACKEND 
+I> USERS :-- food reels ,View food Items
+ii> FOOD PARTNER :-  List food item 
+
+//npm init -y ---> This is for package.json file
+
+//FOR CREATING SERVER WE USE OR RUN IN TERMINAL THAT IS npm i express
+
+here first we create for user that is registration login/logout etc-------
+
+-----------------
+app.js me server create krenge and server.js me server start krenge
+
+Now we run,npx nodemon server.js Here nodemonis used because if we have any changes in the js file then it automatically restart the server with new changes
+For testing the server we used PostMan 
+POSTMAN :- It is an application where we developed the API and Check the API which we already created
+
+NOW AFTER CREATING AND STARTING THE SERVER NOW WE HAVE TO CONNECT THE SERVER WITH DATABASE AND For this I USEd MONGOdb
+so,
+for this i run in terminal that is --> (npm i mongoose) which install the several package for dataBase.
+
+DB.JS me hmlog logic likhte hain kis trh hmara server database se connect hoga
+
+--> API ke saath me jo hmlog calback likhte hain usse hmlog controller bolte hain 
+
+int Authocont.js me the password we give it in hashedPassword becz it safe the critical and more details of user in privacy 
+for hashing the password we use the library bcrypts (npm i bcrypt)
+
+AND for saving the password and user details for user we use cookie becz if they again come for login then we know who are they and from where they come
+for this we use the library that is (npm i cookie-parser) means we create token for user and save it in cookie 
+
+--->>>>>Frontend pe hm password kbhi nhi bhejte due to security reasons
