@@ -8,6 +8,6 @@ async function createFood(req, res) {
     console.log(req.file);
 }
 
-module.exports = {
+module.exports = {  
     createFood
 }

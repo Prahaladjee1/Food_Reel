@@ -6,7 +6,7 @@ ii> FOOD PARTNER :-  List food item
 
 //FOR CREATING SERVER WE USE OR RUN IN TERMINAL THAT IS npm i express
 
-here first we create for user that is registration login/logout etc-------
+here first we create for user that is registration login and logout etc-------
 
 -----------------
 app.js me server create krenge and server.js me server start krenge
@@ -32,3 +32,15 @@ for this we use the library that is (npm i cookie-parser) means we create token 
 --->>>>>Frontend pe hm password kbhi nhi bhejte due to security reasons
 
 So finally for register user we create an API is successfully
+
+
+
+Video upload krne ke baad hm usse database me save krte hain uske liye hmne multer ka use kiya hai kyunki without it shows undefined
+so for this we run in terminal that is (npm i multer)
+
+
+ apna  file ko server pe nhi krta hai usse hmlog apne Hard disk yaa ssd me save krte hain becz when server is deployed then we dont have access to server file system, SSD or Hard disk so we use cloud storage provider(like google drive) jese ki imagekit, Cloudinary etc.
+
+ In this i use IMAGEKIT for storing the file in cloud
+
+ Imagekit is a cloud storage provider jisme hmlog apna file store krte hain and uske bad hmlog usse access krte hain by url jo hmlogko imagekit provide krta hai.
