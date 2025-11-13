@@ -33,7 +33,7 @@ for this we use the library that is (npm i cookie-parser) means we create token 
 
 So finally for register user we create an API is successfully
 
-
+express ke server se jo file upload krte hain usse hmlog multer ka use krte hain for rading the file
 
 Video upload krne ke baad hm usse database me save krte hain uske liye hmne multer ka use kiya hai kyunki without it shows undefined
 so for this we run in terminal that is (npm i multer)
@@ -44,3 +44,5 @@ so for this we run in terminal that is (npm i multer)
  In this i use IMAGEKIT for storing the file in cloud
 
  Imagekit is a cloud storage provider jisme hmlog apna file store krte hain and uske bad hmlog usse access krte hain by url jo hmlogko imagekit provide krta hai.
+
+ aise koi bhi cheez or service jise hmlo change krna ho yaa fir usse access krna ho to hmlog usse service.js me store krte hain.
